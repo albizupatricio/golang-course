@@ -2,10 +2,6 @@
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
-<div align="center">
-  <img src="https://go.dev/images/gophers/front.svg" alt="Go Gopher" width="320" />
-</div>
-
 Exercises and projects from a Go course, in progressive order: from language fundamentals to a full REST API with authentication. Each numbered folder is an independent Go module (its own `go.mod`).
 
 ## Structure
@@ -57,3 +53,5 @@ The `.http` files under `api-test/` (usable with VS Code's REST Client extension
 cd "0X - Folder name"
 go run .
 ```
+
+<img src="https://go.dev/images/gophers/front.svg" alt="Go Gopher" width="160" />
