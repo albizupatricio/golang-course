@@ -1,5 +1,7 @@
 # Golang Course
 
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
 Exercises and projects from a Go course, in progressive order: from language fundamentals to a full REST API with authentication. Each numbered folder is an independent Go module (its own `go.mod`).
 
 ## Structure
