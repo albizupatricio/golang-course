@@ -1,0 +1,13 @@
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzkyMjc2NTUyLCJ1c2VySWQiOjF9.JEzjDSsrlrYvOwpdpA9lG5ldVjfZPvTlBoxgoJYHkS8
+
+POST http://localhost:8080/events
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+    "name": "Test Event",
+    "description": "A test event",
+    "location": "A test location",
+    "dateTime": "2025-01-01T15:30:00.00Z"
+
+}

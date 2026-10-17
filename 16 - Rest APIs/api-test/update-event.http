@@ -1,0 +1,12 @@
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzkyMjczMTY2LCJ1c2VySWQiOjN9.EHJnmmSGuAMqiMvVm4uDEfSgojNzu-Hnb7zFKejd9wA
+
+PUT http://localhost:8080/events/1
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+    "name": "Updated test event",
+    "description": "Updated description",
+    "location": "Test location updated",
+    "dateTime": "2025-01-01T15:30:00.00Z"
+}

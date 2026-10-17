@@ -1,0 +1,4 @@
+@token = paste_token_from_login_response_here
+
+DELETE http://localhost:8080/events/1
+Authorization: {{token}}

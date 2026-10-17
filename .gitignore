@@ -1,0 +1,27 @@
+*.db
+.env
+.DS_Store
+.claude/settings.local.json
+
+# compiled binaries from `go build`
+first-app
+rest-apis
+investiment-calculator
+profit-calculator
+variadic-functions
+lists-arrays
+custom-types
+concurrency
+basics-practice
+functions
+pointers
+arrays
+recursion
+bank
+structs
+notes
+price-calculator
+*.exe
+*.dll
+*.so
+*.dylib
