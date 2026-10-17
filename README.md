@@ -54,4 +54,6 @@ cd "0X - Folder name"
 go run .
 ```
 
-<img src="https://go.dev/images/gophers/front.svg" alt="Go Gopher" width="160" />
+<div align="center">
+  <img src="https://go.dev/images/gophers/front.svg" alt="Go Gopher" width="160" />
+</div>
